@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 
-public class Pacman2 extends JApplet implements KeyListener
+public class Pacman extends JApplet implements KeyListener
 {
    private DrawingArea canvas;
    private ButtonPanel buttonPanel;
@@ -33,7 +33,7 @@ public class Pacman2 extends JApplet implements KeyListener
    private ActionListener timeListener;
    //setting values here is easier
 
-   public Pacman2()
+   public Pacman()
    {
        xpos = cheeseEaten = ypos = 0;
        dead = false;
